@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+a {
+    color: #FF7600;
+}
+
+#header {
+    background: #01939A;
+}
+
+    #header h1 {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #FFF;
+        text-align: center;
+        font: 18px 'Lucida Console', Monaco, monospace;
+    }
+
+    #header p {
+        margin: 0px;
+        color: #FFF;
+        text-align: center;
+    }
+
+#maincontainer {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#information {
+}
+    #information h1 {
+        margin: 0px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: #FF7600;
+        text-align: center;
+        font: 60px Georgia, serif;
+    }
+
+#footer {
+    clear: both;
+    background: #01939A;
+    text-align: center;
+}
+
+    #footer p {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #FFF;
+        text-align: center;
+        font: 14px 'Lucida Console', Monaco, monospace;
+    }
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.box {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #CCC;
+}
+    .box h2 {
+        margin: 0px 0px 10px 0px;
+        color: #000;
+        font: 20px 'Lucida Console', Monaco, monospace;
+        border-bottom: 1px solid #CCC;
+    }
+    .box p {
+        margin: 0px;
+        padding-bottom: 10px;
+        color: #000;
+        font: 14px Georgia, serif;
+    }
+
+.lastupdate {
+    font: 11px 'Lucida Console', Monaco, monospace;
+    padding-top: 5px;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #CCC;
+}
