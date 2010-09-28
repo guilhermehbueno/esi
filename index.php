@@ -25,13 +25,10 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
             <esi:include src="/datetime_two.php"/>
             <esi:include src="/datetime_three.php"/>
         </div>
-        <div id="column2" class="column">
-            <esi:include src="/explanation.php"/>
+        <div id="column2" class="widecolumn">
+            <esi:include src="/description.php"/>
         </div>
         <div id="column3" class="column">
-            <esi:include src="/code.php"/>
-        </div>
-        <div id="column4" class="column">
             <div class="box">
                 <h2>Comments</h2>
                 <p>Feel free to say something. Only allowed characters is a-z, 0-9 and spaces - and max. 200 chars.</p>

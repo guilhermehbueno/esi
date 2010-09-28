@@ -61,6 +61,11 @@ a {
     width: 25%;
 }
 
+.widecolumn {
+    float: left;
+    width: 50%;
+}
+
 .box {
     padding: 10px;
     margin: 5px;
