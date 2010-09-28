@@ -77,6 +77,12 @@ a {
         font: 20px 'Lucida Console', Monaco, monospace;
         border-bottom: 1px solid #CCC;
     }
+    .box h3 {
+        margin: 5px 0px 5px 0px;
+        color: #000;
+        font: 16px 'Lucida Console', Monaco, monospace;
+        border-bottom: 1px solid #CCC;
+    }
     .box p {
         margin: 0px;
         padding-bottom: 10px;
