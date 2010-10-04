@@ -18,7 +18,7 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         {
             ?>
             <form method="post" action="/login_do.php">
-                <input type="text" name="username" size="10" /><br />
+                <input type="text" name="username" size="15" maxlength="15" /> 
                 <input type="submit" value="Log in" />
             </form>
             <p>Allowed chars: a-z and 0-9</p>
