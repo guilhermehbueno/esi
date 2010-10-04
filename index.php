@@ -29,20 +29,9 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
             <esi:include src="/description.php"/>
         </div>
         <div id="column3" class="column">
-            <div class="box">
-                <h2>Comments</h2>
-                <p>Feel free to say something. Only allowed characters is a-z, 0-9 and spaces - and max. 200 chars.</p>
-                <form method="post" action="/comment_add.php">
-                    <input type="textarea"></textarea><br />
-                    <input type="submit" value="Send" />
-                </form>
-            </div>
+            <esi:include src="/login.php?UUID"/>
+            <esi:include src="/comments_form.php"/>
             <esi:include src="/comments.php"/>
-            <div class="box">
-                <h2>Cacheable but..</h2>
-                <p>..a comment section needs to be updated on demand.</p>
-                <p>Explanation...</p>
-            </div>
         </div>
     </div>
     <div id="footer">
