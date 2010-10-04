@@ -11,13 +11,13 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         {
             ?>
             <p>Logged in as: <?=$_COOKIE['user']?><br />
-                <a href="/logout_do.php">Log out</a></p>
+                <a href="/action_logout.php">Log out</a></p>
             <?php
         }
         else
         {
             ?>
-            <form method="post" action="/login_do.php">
+            <form method="post" action="/action_login.php">
                 <input type="text" name="username" size="15" maxlength="15" /> 
                 <input type="submit" value="Log in" />
             </form>
