@@ -25,6 +25,6 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         created <?php print date("d.m.Y H:i:s", $now);?> - 
         age <?php print $age.' seconds'?><br />
         expire <?php print date("d.m.Y H:i:s", $now+$age);?> - 
-        <a href="http://github.com/bitmand/esi/blob/master/description.php">source</a>
+        <a href="http://github.com/bitmand/esi/blob/master/parts/description.php">source</a>
     </div>
 </div>
