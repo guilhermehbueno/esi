@@ -6,11 +6,11 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
 <div class="box">
     <h2>Login</h2>
     <?php
-        session_start();
-        if ($_SESSION['loggedin'])
+
+        if (isset($_COOKIE['user']))
         {
             ?>
-            <p>Logged in as: <?=$_SESSION['username']?><br />
+            <p>Logged in as: <?=$_COOKIE['user']?><br />
                 <a href="/logout_do.php">Log out</a></p>
             <?php
         }
