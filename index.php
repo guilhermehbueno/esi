@@ -35,7 +35,7 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         </div>
     </div>
     <div id="footer">
-        <p>This is just a simpe test page - you can read more about it on ... - thanks to Varnish!</p>
+        <p>This is just a simple test page - you can read more about it on ... - thanks to Varnish!</p>
     </div>
     <div class="lastupdate">
         created <?php print date("d.m.Y H:i:s", $now);?> 

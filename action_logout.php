@@ -23,7 +23,7 @@ setcookie("user", false);
     </div>
     </div>
     <div id="footer">
-        <p>This is just a simpe test page - you can read more about it on ... - thanks to Varnish!</p>
+        <p>This is just a simple test page - you can read more about it on ... - thanks to Varnish!</p>
     </div>
 
 </body>
