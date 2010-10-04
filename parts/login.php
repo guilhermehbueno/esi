@@ -1,5 +1,5 @@
 <?php
-$age = 1;
+$age = 60;
 $now = mktime();
 header('Cache-Control: max-age='.$age.', must-revalidate');
 ?>
