@@ -20,18 +20,18 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
             <h1>Building blazingly fast dynamic<br />websites using Varnish and ESI</h1>
         </div>
         <div id="column1" class="column">
-            <esi:include src="/datetime_text.php"/>
-            <esi:include src="/datetime_one.php"/>
-            <esi:include src="/datetime_two.php"/>
-            <esi:include src="/datetime_three.php"/>
+            <esi:include src="/parts/datetime_text.php"/>
+            <esi:include src="/parts/datetime_one.php"/>
+            <esi:include src="/parts/datetime_two.php"/>
+            <esi:include src="/parts/datetime_three.php"/>
         </div>
         <div id="column2" class="widecolumn">
-            <esi:include src="/description.php"/>
+            <esi:include src="/parts/description.php"/>
         </div>
         <div id="column3" class="column">
-            <esi:include src="/login.php?UUID"/>
-            <esi:include src="/comments_form.php"/>
-            <esi:include src="/comments.php"/>
+            <esi:include src="/parts/login.php?UUID"/>
+            <esi:include src="/parts/comments_form.php"/>
+            <esi:include src="/parts/comments.php"/>
         </div>
     </div>
     <div id="footer">
