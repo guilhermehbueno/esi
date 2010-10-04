@@ -10,7 +10,7 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         if (isset($_COOKIE['user']))
         {
             ?>
-            <p>Logged in as: <?=$_COOKIE['user']?><br />
+            <p>Logged in as: <?php print $_COOKIE['user']; ?><br />
                 <a href="/action_logout.php">Log out</a></p>
             <?php
         }
