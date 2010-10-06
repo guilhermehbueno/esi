@@ -89,6 +89,11 @@ a {
         color: #000;
         font: 14px Georgia, serif;
     }
+    .box li {
+        padding-bottom: 3px;
+        color: #000;
+        font: 14px Georgia, serif;
+    }
 
 .lastupdate {
     font: 11px 'Lucida Console', Monaco, monospace;

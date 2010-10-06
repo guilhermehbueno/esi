@@ -15,12 +15,22 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
     <p>The trick here, is that each element can be cached differently, so Varnish will only ask the backend when needed. Think about it, why have a php page to go through thousands lines of code each and every time to build a html page that is exactly the same every time.</p>
     <h3>Headers</h3>
     <p>..</p>
+    <h3>Caching logged in users</h3>
+    <p>..</p>
     <h3>Clear cache on demand</h3>
     <p>..</p>
     <h3>Varnish configuration</h3>
     <p>..</p>
     <h3>Performance Statistics</h3>
     <p>..</p>
+    <h3>Read more about it</h3>
+    <ul>
+        <li><a href="http://github.com/bitmand/esi">GitHub - Source code for this site</a></li>
+        <li><a href="http://www.varnish-cache.org/trac/wiki/VCL">VCL - Varnish configuation Language</a></li>
+        <li><a href="http://www.varnish-cache.org/trac/wiki/VCLExampleCacheCookies">Caching with Cookies</a></li>
+        <li><a href="http://www.varnish-cache.org/trac/wiki/ESIfeatures">ESI Features</a></li>
+        <li><a href="http://www.varnish-cache.org/trac/wiki/VCLExampleCachingLoggedInUsers">Caching logged in users</a></li>
+    </ul>
     <div class="lastupdate">
         created <?php print date("d.m.Y H:i:s", $now);?> - 
         age <?php print $age.' seconds'?><br />
