@@ -30,6 +30,7 @@ header('Cache-Control: max-age='.$age.', must-revalidate');
         <li><a href="http://www.varnish-cache.org/trac/wiki/VCLExampleCacheCookies">Caching with Cookies</a></li>
         <li><a href="http://www.varnish-cache.org/trac/wiki/ESIfeatures">ESI Features</a></li>
         <li><a href="http://www.varnish-cache.org/trac/wiki/VCLExampleCachingLoggedInUsers">Caching logged in users</a></li>
+        <li><a href="http://www.varnish-cache.org/trac/wiki/VCLExamplePurging">Purging on demand</a></li>
     </ul>
     <div class="lastupdate">
         created <?php print date("d.m.Y H:i:s", $now);?> - 
